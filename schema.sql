@@ -1,8 +1,10 @@
+DROP TABLE IF EXISTS nytimes_2016, election_2012, states;
+
 CREATE TABLE IF NOT EXISTS nytimes_2016
 (
     id SERIAL,
-    clinton numeric(1000,4) NOT NULL,
-    trump numeric(1000,4) NOT NULL,
+    clinton numeric(10,0) NOT NULL,
+    trump numeric(10,0) NOT NULL,
     rpt INTEGER,
     state VARCHAR(100) NOT NULL,
     county VARCHAR(100),
@@ -28,4 +30,10 @@ CREATE TABLE IF NOT EXISTS election_2012
     LastName VARCHAR(100),
     Votes INTEGER NOT NULL,
     PRIMARY KEY(id)
+);
+
+CREATE TABLE IF NOT EXISTS states
+(
+	state VARCHAR(50),
+	abbrv VARCHAR(5)
 );
