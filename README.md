@@ -15,3 +15,6 @@ Otherwise the CSVs will be uploaded without issue.
 The file “2012 sql queries/cleanup.sql” can be run to clean and organize the 2012 data.
 
 In the “2016 sql queries” folder, “county_township_cleanup.sql” needs to be run first to condense county/township data, and then “candidate_separate.sql” can be run to make the data mirror the format of the 2012 set.
+
+Link to final project report:
+https://docs.google.com/document/d/e/2PACX-1vQgcwWPeVso9p6itQMsi25draeHRI3d2QZYrp70tf5g2nBzZIWy-3FtmkX9qOWs5Ha4w9q_BfN-rEcr/pub
